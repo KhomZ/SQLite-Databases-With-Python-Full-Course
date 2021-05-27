@@ -1,0 +1,94 @@
+# @Khom
+____________________________________________________________________________________________________________
+Part 1>>>
+____________________________________________________________________________________________________________
+
+import sqlite3
+
+# conn = sqlite3.connect(':memory')
+# creating database
+conn = sqlite3.connect('customer.db')
+
+# create a cursor 
+c = conn.cursor()
+
+# now creating a database table
+c.execute("""CREATE TABLE customers (
+    first_name text,
+    last_name text,
+    email text
+
+)""")
+
+# sqlite has five datatypes : 
+# 1. NULL(doesn't exist), 
+# 2. INTEGER(a whole number), 
+# 3. REAL(decimals), 
+# 4. TEXT(simply text) & 
+# 5. BLOB(stored exactly as it is like music mp3, image might be a blob) 
+
+# commit our command 
+conn.commit()
+
+# close our connection 
+conn.close()
+
+
+__________________________________________________________________________________________________________________
+Part 2
+__________________________________________________________________________________________________________________
+Insert One Record Into The table
+
+import sqlite3
+
+# conn = sqlite3.connect(':memory')
+# creating database
+conn = sqlite3.connect('customer.db')
+
+# create a cursor 
+c = conn.cursor()
+
+c.execute("INSERT INTO customers VALUES ('Khom', 'Magar', 'khom@ikhomkodes.com')")
+c.execute("INSERT INTO customers VALUES ('Kyzen', 'Smith', 'kyzen@ikhomkodes.com')")
+c.execute("INSERT INTO customers VALUES ('Biraj', 'Thapa', 'biraj@ikhomkodes.com')")
+
+print("Command executed succesfully...")
+# commit our command 
+conn.commit()
+
+# close our connection 
+conn.close()
+
+
+
+
+_________________________________________________________________________________________________________
+Part 3
+_________________________________________________________________________________________________________
+Insert Many Records Into The table
+
+import sqlite3
+
+# conn = sqlite3.connect(':memory')
+# creating database
+conn = sqlite3.connect('customer.db')
+
+# create a cursor 
+c = conn.cursor()
+
+many_customers = [
+                    ('Wes', 'Brown', 'wes@brown.com'), 
+                    ('Kim', 'Pas', 'kim@pas.com'), 
+                    ('Jim', 'Ale', 'jim@ale.com'),
+                ]
+
+
+c.executemany("INSERT INTO customers VALUES (?, ?, ?)", many_customers)
+
+
+print("Command executed succesfully...")
+# commit our command 
+conn.commit()
+
+# close our connection 
+conn.close()
