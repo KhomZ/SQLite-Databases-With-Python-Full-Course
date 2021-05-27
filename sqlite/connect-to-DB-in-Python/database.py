@@ -1,4 +1,6 @@
 # @Khom
+# Only for demo
+
 
 import sqlite3
 

@@ -6,4 +6,18 @@ We'll learn how to create databases and tables, add data, sort data, create repo
 For this course you should already have a basic knowledge of Python programming, but don't you worry, to know all about databases or SQLite, you don't need to know anything at all.
 
 
+## Be careful to run the source codes sequentially 
+# Stepwise running the code like:
+1. DB_table.py  => creates database and table
+2. InsertOneRec.py  => inserts single record to the table
+3. InsertManyRec.py  => inserts multiple (many) records to the table
+4. Query_n_Fetchall.py  => queries and fetches the data
+5. .py  => 
+6. .py  => 
+7. .py  => 
+8. .py  => 
+9. .py  => 
+
+
+
 Code: https://github.com/KhomZ/SQLite-Databases-With-Python-Full-Course

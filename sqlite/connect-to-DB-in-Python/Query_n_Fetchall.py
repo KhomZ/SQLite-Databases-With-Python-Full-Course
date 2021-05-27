@@ -18,9 +18,14 @@ c = conn.cursor()
 c.execute("SELECT * FROM customers")
 
 # print(c.fetchone())
-# print(c.fetchmany())
+# print(c.fetchone()[0]) # this will give the first value only
+# print(c.fetchmany(3))
 
-print(c.fetchall())
+# print(c.fetchall())
+items = c.fetchall()
+
+print(items)
+
 
 # print("Command executed succesfully...")
 # commit our command 
