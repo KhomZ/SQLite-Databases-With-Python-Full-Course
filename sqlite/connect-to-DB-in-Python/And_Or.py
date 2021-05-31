@@ -15,7 +15,7 @@ conn = sqlite3.connect('customer.db')
 c = conn.cursor()
 
 
-# Query The Database - ORDER BY
+# Query The Database - AND/OR
 # c.execute("SELECT rowid, * FROM customers WHERE last_name LIKE 'Br%' AND rowid = 4") # this is for AND i.e. intersection
 # c.execute("SELECT rowid, * FROM customers WHERE last_name LIKE 'Br%' OR rowid = 4") # this is for OR i.e. Union
 c.execute("SELECT rowid, * FROM customers WHERE last_name LIKE 'Br%' OR rowid = 4 OR email LIKE '%ikhomkodes.com'")
