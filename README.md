@@ -21,3 +21,10 @@ For this course you should already have a basic knowledge of Python programming,
 
 
 Code: https://github.com/KhomZ/SQLite-Databases-With-Python-Full-Course
+
+G-Suite Drive Link For Full Length Video: https://drive.google.com/folderview?id=16LM0RkAkO777yeSr3XiL3D2Eansw3cAF
+
+## YouTube Link: https://youtube.com/playlist?list=PLlsDOhvt-Z7VZ1La-XlSWZEX1SZoeVbIg
+Subscribe my YouTube Channel: 
+https://youtube.com/channel/UClob1lkJkmr2Bb2IyZey4hw
+
