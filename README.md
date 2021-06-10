@@ -29,3 +29,6 @@ https://youtube.com/playlist?list=PLlsDOhvt-Z7VZ1La-XlSWZEX1SZoeVbIg
 ## Subscribe my YouTube Channel: 
 https://youtube.com/channel/UClob1lkJkmr2Bb2IyZey4hw
 
+## Join My Discord Server:
+https://discord.gg/aRfkuwuR
+
