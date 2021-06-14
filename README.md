@@ -8,10 +8,10 @@ For this course you should already have a basic knowledge of Python programming,
 
 ## Be careful to run the source codes sequentially 
 # Stepwise running the code like:
-1. DB_table.py  => creates database and table
-2. InsertOneRec.py  => inserts single record to the table
-3. InsertManyRec.py  => inserts multiple (many) records to the table
-4. Query_n_Fetchall.py  => queries and fetches the data
+1. $ python DB_table.py  => creates database and table
+2. $ python InsertOneRec.py  => inserts single record to the table
+3. $ python InsertManyRec.py  => inserts multiple (many) records to the table
+4. $ python Query_n_Fetchall.py  => queries and fetches the data
 5. .py  => 
 6. .py  => 
 7. .py  => 
@@ -31,4 +31,7 @@ https://youtube.com/channel/UClob1lkJkmr2Bb2IyZey4hw
 
 ## Join My Discord Server:
 https://discord.gg/aRfkuwuR
+
+Output screenshot:
+![alt text](https://github.com/KhomZ/SQLite-Databases-With-Python-Full-Course/blob/main/screenshots/ksnip_1.png?raw=true)
 
